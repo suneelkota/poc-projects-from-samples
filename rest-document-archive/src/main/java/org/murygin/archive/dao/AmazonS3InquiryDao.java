@@ -27,8 +27,8 @@ public class AmazonS3InquiryDao {
 	
 	public List<DocumentMetadata> getFilesList() throws IOException {
 		AWSCredentials credentials = new BasicAWSCredentials(
-				"AKIAIZ4M5AHN3ZTJLUEQ", 
-				"6borFhgqMFYQCZ9Lm45kZjZYfzfvx3WyL2PWEVmf");
+				"***********", 
+				"***************");
 		
 		// create a client connection based on credentials
 		AmazonS3 s3client = new AmazonS3Client(credentials);
